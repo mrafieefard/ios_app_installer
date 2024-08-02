@@ -6,4 +6,5 @@ class UiColors{
     Color underTopNav = Color.fromARGB(255,35, 55, 71); 
     Color bottomNav = Color.fromARGB(127, 38, 38, 38);
     Color deactiveColor = Color.fromARGB(255,134, 135 , 140); 
+    Color activeColor = Color.fromARGB(255,20, 191 , 158); 
 }

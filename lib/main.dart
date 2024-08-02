@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ios_app_installer/bottom_nav.dart';
-import 'package:ios_app_installer/custom_page.dart';
+import 'package:ios_app_installer/main_page.dart';
 import 'package:ios_app_installer/ui.dart';
 
 void main() {
@@ -23,10 +22,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: UiColors().bg,
-        useMaterial3: true,
+        brightness: Brightness.dark,
+        scaffoldBackgroundColor: UiColors().bg
       ),
-      home: const CustomPage(),
+      home: const MainPage(),
     );
   }
 }
